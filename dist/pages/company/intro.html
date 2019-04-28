@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../static/css/components/header.css">
     <link rel="stylesheet" href="../../static/css/common.css">
     <link rel="stylesheet" href="../../static/css/components/footer.css">
-    <title>企业文化 </title>
+    <title>企业文化</title>
     <script src="../../static/js/components/jquery.js"></script>
     <script>
         $(function() {
@@ -34,9 +34,9 @@
                 </div>
                 <div class="leftNav">
                     <ul>
-                        <li><a href="http://localhost/pages/company/intro.html">公司介绍</a></li> 
-                        <li><a href="http://localhost/pages/company/honour.html" >企业荣耀</a></li>
-                        <li><a href="http://localhost/pages/company/culture.html"  class="left-list-active">企业文化</a></li>  
+                        <li><a href="http://192.168.0.67/pages/company/intro.html" class="left-list-active">公司介绍</a></li> 
+                        <li><a href="http://192.168.0.67/pages/company/honour.html" >企业荣耀</a></li>
+                        <li><a href="http://192.168.0.67/pages/company/culture.html">企业文化</a></li>  
                     </ul>
                 </div>
             </div>
@@ -65,5 +65,39 @@
     <!--放一个id为footer的div,把footer.html加载到这块-->
     <div id="footer"></div>
 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--放一个id为footer的div,把footer.html加载到这块-->
+    <div id="footer"></div>
+    <script>
+        $(function() {
+            $('#header').load('../components/header.html');
+            // $('#footer').load('common/footer.html');
+        })
+    </script>
 </body>
 </html>

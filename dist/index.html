@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../static/css/components/header.css">
+    <link rel="stylesheet" href="../../static/css/components/footer.css">
+    <link rel="stylesheet" href="static/css/index.css">
+    <title>Document</title>
+    <script src="static/js/components/jquery.js"></script>
+    <script src="static/js/responsiveslides.js"></script>
+    <script>
+        $(function() {
+            $('#header').load('./pages/components/header.html');
+            $('#footer').load('./pages/components/footer.html');
+        })
+    </script>
+</head>
+<body>
+    <!--放一个id为header的div,把header.html加载到这块-->
+    <div id="header"></div>
+
+        <!--轮播图-->
+        <div class="banner">
+            <div class="focus"> 	
+                <ul class="rslides f426x240" id="rs1">  
+                    <li>
+                        <a href="http://zhuobao.vancheer.net/product/product_100000001224686.html" target="_blank">
+                            <img src="static/images/index-banner-1.jpg" width="100%" />
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="http://test.zhuobao.com/News/news_100100000677629.html" target="_blank">
+                            <img src="static/images/index-banner-2.jpg" width="100%" />
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="/Standard/research.html" target="_blank">
+                            <img src="static/images/index-banner-3.jpg" width="100%" />
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="http://test.zhuobao.com/News/news_100100000686729.html" target="_blank">
+                            <img src="static/images/index-banner-4.jpg" width="100%" />
+                        </a>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+        <!-- 新闻动态 -->
+        <div class="news-box">
+            <div class="news-contains">
+                <div class="botDiv">
+                    <div class="box-left">
+                        <div class="title">
+                            <b>新闻动态</b> / NEWS
+                        </div>
+                        
+                        <div class="contentBox">
+                            <div class="imgDiv">
+                                <a href="/News/news_100000076544778.html">
+                                    <img src="./static/images/index-news.png" class="fangda" alt="">
+                                </a>
+                            </div>
+                            <div class="name">
+                                <a href="/News/news_100000076544778.html">呵护童真，守望梦想 | 为你摘星·第三季海豚宝宝六一画展作品征集启动啦！</a>
+                            </div>
+                            <div class="time">2019-04-26</div>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="http://192.168.0.67/News/news_100000077038773.html" >这些一线/新一线城市，“三大论坛”统统走起！（4.15-4.21）</a></li> 
+                                    <li><a href="/News/news_100000076395243.html" >S-CLF获广东省建材行业技术革新奖特等奖！</a></li> 
+                                    <li><a href="/News/news_100000076254867.html" >一次解决防水保温问题！外喜防水保温一体化系统施工工艺详解</a></li> 
+                                    <li><a href="/News/news_100000076819893.html" >问世五周年，全流程告诉你一个真实的“零缺陷”| Part 6：经典案例篇</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-right">
+                        <div class="des-box">
+                            <a href="/Product/kkkkkl.html" target="_blank">
+                                <div class="icon-img">
+                                    <img src="./static/images/index-des-1.png" alt="" />
+                                </div> 
+                                <div class="name">零缺陷服务系统</div> 
+                                <div class="msg">一旦渗漏，双倍赔偿</div>
+                            </a> 
+                        </div>
+                        <div class="des-box">
+                            <a href="/Product/core1.html" target="_blank">
+                                <div class="icon-img">
+                                    <img src="./static/images/index-des-2.png" alt="" />
+                                </div> 
+                                <div class="name">核心系统</div> 
+                                <div class="msg">多种系列高品质防水产品</div>
+                            </a> 
+                        </div>
+                        <div class="des-box">
+                            <a href="/Case/case.html" target="_blank">
+                                <div class="icon-img">
+                                    <img src="./static/images/index-des-3.png" alt="" />
+                                </div> 
+                                <div class="name">工程案例</div> 
+                                <div class="msg">鲁班奖工程案例见证实力</div>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+    <!--放一个id为footer的div,把footer.html加载到这块-->
+    <div id="footer"></div>
+    
+    <script language="javascript" type="text/javascript">
+        $(function() {
+            $(".f426x240").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: true,
+                speed: 400,
+                maxwidth: 2560
+            });
+            $(".f160x160").responsiveSlides({
+                auto: true,
+                pager: true,
+                speed: 900,
+                maxwidth: 640
+            });
+        });
+    </script>
+</body>
+</html>
