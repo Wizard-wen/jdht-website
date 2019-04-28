@@ -1,0 +1,164 @@
+// scss
+.a{
+    background: #185;
+}
+.page-common-banner{ 
+    position:relative;
+    & img{
+        width:100%;
+    }
+}
+
+.page-common-box{ 
+    padding:45px 0 80px;
+    .page-common-content{
+        width:1200px; 
+        margin:0px auto;
+        .page-common-left{
+            width:220px; 
+            overflow:hidden;
+            .pageTitle{ 
+                width:100%; 
+                height:89px; 
+                background:url(../images/nav-header.jpg) no-repeat; 
+                color: #fff;
+                .txt1{ 
+                    padding:20px 0 0 46px; 
+                    font-size:24px; 
+                    font-weight: bold;
+                }
+                .txt2{ 
+                    padding-left:46px;
+                    padding-top: 5px; 
+                    opacity: 0.3;
+                }
+            }
+            .leftNav{ 
+                border: #e9e9ed solid 1px; 
+                border-bottom: none; 
+                & li{
+                    font-size: 14px; 
+                    border-bottom: #e9e9ed solid 1px;
+                    & a{ 
+                        display: block; 
+                        padding-left: 45px; 
+                        height: 65px; 
+                        line-height: 65px;
+                        background:#f6f6f6; 
+                        color: #333;
+                        &:hover{
+                            background:#fff url(../images/right-arrow-icon.png) 32px center no-repeat; 
+                            color: #004898; 
+                            font-weight: bold;
+                        }
+                    }
+                    .left-list-active{ 
+                        background:#fff url(../images/right-arrow-icon.png) 32px center no-repeat; 
+                        color: #004898; 
+                        font-weight: bold;
+                    }
+                }
+            }
+            .left-level-nav{
+                border: #e9e9ed solid 1px; 
+                border-bottom: none; 
+                .level-1{
+                    position: relative;
+                    font-size: 14px; 
+                    border-bottom: #e9e9ed solid 1px; 
+                    padding-left: 10px; 
+                    height: 65px; 
+                    line-height: 65px;
+                    color: #333;     
+                    background-color:#dfdfdf;  
+                }
+                .level-2{
+                    & img{
+                        position: absolute;
+                        top: 30px;
+                        right: 15px;
+                        transform: rotate(-90deg);
+                    }
+                }
+                .level-down{
+                    background: url(../images/header-arrow-down.png) no-repeat;
+                    background-position: 186px 30px;                           
+                    background-color:#dfdfdf;
+                    & img{
+                        display: none;
+                    }
+                }
+                & ul{
+                    & li{
+                        font-size: 14px;    
+                        border-bottom: #e9e9ed solid 1px;
+                        & a{ 
+                            display: block; 
+                            padding: 0 10px 0 45px;  
+                            overflow: hidden;//隐藏文字
+                            text-overflow: ellipsis;//显示...
+                            white-space: nowrap; //不换行
+                            height: 65px; 
+                            line-height: 65px;
+                            background:#f6f6f6; 
+                            color: #333;
+                            &:hover{
+                                background:#fff url(../images/right-arrow-icon.png) 32px center no-repeat; 
+                                color: #004898; 
+                                font-weight: bold;
+                            }
+                        }
+                        .left-list-active{ 
+                            background:#fff url(../images/right-arrow-icon.png) 32px center no-repeat; 
+                            color: #004898; 
+                            font-weight: bold;
+                        }
+
+                    } 
+                }
+            }
+        }
+        .page-common-right{
+            width:900px; 
+            overflow:hidden;
+            .pageTop{ 
+                height: 66px;
+                border-bottom: #f2f2f2 solid 1px; 
+                position: relative;
+                .pageName{ 
+                    padding-top: 8px; 
+                    color: #d0d0d0;
+                    & b{ 
+                        color: #484848; 
+                        font-size: 24px; 
+                        padding-right: 10px;
+                    }
+                }
+                .pageNow{ 
+                    position:absolute; 
+                    right:0px; 
+                    height:40px; 
+                    top:16px; 
+                    z-index:2; 
+                    color:#c2c2c2;
+                    a{ 
+                        color:#c2c2c2;
+                        &:hover{ 
+                            text-decoration: underline;
+                        }
+                    }
+                    img{ 
+                        position:relative; 
+                        padding-right:8px; 
+                        top:-2px;
+                    }
+                    em{ color: #515151; }
+                }
+            }
+        }
+    }
+}
+
+
+
+
