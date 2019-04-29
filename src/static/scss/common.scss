@@ -80,6 +80,27 @@
                         transform: rotate(-90deg);
                     }
                 }
+                & a{ 
+                    display: block; 
+                    padding: 0 10px 0 45px;  
+                    overflow: hidden;//隐藏文字
+                    text-overflow: ellipsis;//显示...
+                    white-space: nowrap; //不换行
+                    height: 65px; 
+                    line-height: 65px;
+                    background:#f6f6f6; 
+                    color: #333;
+                    &:hover{
+                        background:#fff url(../images/right-arrow-icon.png) 32px center no-repeat; 
+                        color: #004898; 
+                        font-weight: bold;
+                    } 
+                }
+                .left-list-active{ 
+                    background:#fff url(../images/right-arrow-icon.png) 32px center no-repeat; 
+                    color: #004898; 
+                    font-weight: bold;
+                }
                 .level-down{
                     background: url(../images/header-arrow-down.png) no-repeat;
                     background-position: 186px 30px;                           
@@ -155,6 +176,7 @@
                     em{ color: #515151; }
                 }
             }
+
         }
     }
 }
@@ -162,3 +184,13 @@
 
 
 
+
+.product .list1{ padding-bottom: 30px; }
+.product .list1 li{ padding-left:454px; margin-bottom: 60px; position:relative; height: 266px;}
+.product .list1 li .imgDiv{ position:absolute; left:0px; top:0px; overflow: hidden; }
+.product .list1 li .imgDiv img{ width: 382px;}
+.product .list1 li .name{padding-top: 12px; height: 32px; line-height: 32px; overflow: hidden; font-weight: bold; font-size: 22px;}
+.product .list1 li .name a{ color: #000; }
+.product .list1 li .name a:hover{ color: #004898; }
+.product .list1 li .msg{ font-size:14px; padding-top: 20px; height:156px; line-height: 26px; overflow: hidden; color: #a4a4a4; }
+.product .list1 li .msg em{ color:#585858;}

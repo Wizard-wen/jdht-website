@@ -127,13 +127,22 @@ gulp.task("build-prod", gulp.series('html-prod', 'style','script','image', async
 // }))
 
 
-gulp.task('dev', async function(){
+gulp.task('dev',gulp.series('build-dev', async function(){
+    console.log('ceshi')
     await gulp.watch('src/static/scss/**/*.scss',gulp.series('sass', async function() {
 
     }));
     await gulp.watch('src',gulp.series('build-dev', async function(){
 
     }))
+}), async function(){
+    // await 
+    // await gulp.watch('src/static/scss/**/*.scss',gulp.series('sass', async function() {
+
+    // }));
+    // await gulp.watch('src',gulp.series('build-dev', async function(){
+
+    // }))
 })
 
 
