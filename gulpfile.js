@@ -12,15 +12,37 @@ var replace = require('gulp-replace');//文本替换
 
 var config = require('./prod.config.js')
 var os = require('os')
-var localhost = ''
-try {
-  var network = os.networkInterfaces()
-  localhost = network[Object.keys(network)[0]][1].address
-} catch (e) {
-  localhost = 'localhost';
+
+
+
+var IPAddress = '';
+try{
+    const interfaces = os.networkInterfaces(); // 在开发环境中获取局域网中的本机iP地址
+
+    for(var devName in interfaces){  
+      var iface = interfaces[devName];  
+      for(var i=0;i<iface.length;i++){  
+            var alias = iface[i];  
+            if(alias.family === 'IPv4' && alias.address !== '127.0.0.1' && !alias.internal){  
+                  IPAddress = alias.address;  
+            }  
+      }  
+    } 
+} catch(err){
+    IPAddress = 'localhost'
 }
-var uri = 'http://' + localhost
-// console.log(config.prodUrl)
+
+var uri = 'http://' + IPAddress
+console.log(uri);
+
+
+
+
+
+
+
+
+
 
 /**
  * 生产环境  将页面中的 http://localhost  替换为 http://域名:端口号
