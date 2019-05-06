@@ -243,3 +243,52 @@
               -ms-transition: all 0.3s;
               -o-transition: all 0.3s;
               -webkit-transition: all 0.3s; }
+
+.honour .list {
+  overflow: hidden;
+  padding-bottom: 40px; }
+  .honour .list .list-50 {
+    width: 50%;
+    float: left;
+    margin-bottom: 15px; }
+    .honour .list .list-50 .box-50 {
+      height: 315px;
+      border: #fff solid 1px; }
+      .honour .list .list-50 .box-50 .imgDiv {
+        text-align: center;
+        padding: 24px 0 15px;
+        height: 255px; }
+        .honour .list .list-50 .box-50 .imgDiv .img-50 {
+          height: 255px;
+          width: 380px; }
+      .honour .list .list-50 .box-50 .name {
+        height: 30px;
+        line-height: 30px;
+        overflow: hidden;
+        font-size: 14px;
+        padding: 0 10px;
+        text-align: center; }
+    .honour .list .list-50:hover .box-50 {
+      border: #eee solid 1px; }
+  .honour .list .list-25 {
+    width: 25%;
+    float: left;
+    margin-bottom: 15px; }
+    .honour .list .list-25 .box-25 {
+      height: 315px;
+      border: #fff solid 1px; }
+      .honour .list .list-25 .box-25 .imgDiv {
+        text-align: center;
+        height: 284px;
+        padding: 24px 0 15px; }
+        .honour .list .list-25 .box-25 .imgDiv .img-25 {
+          width: 180px; }
+      .honour .list .list-25 .box-25 .name {
+        height: 30px;
+        line-height: 30px;
+        overflow: hidden;
+        font-size: 14px;
+        padding: 0 10px;
+        text-align: center; }
+    .honour .list .list-25:hover .box-25 {
+      border: #eee solid 1px; }

@@ -269,6 +269,90 @@
         }
     }
 }
+//企业荣耀
+.honour{
+    .list{ 
+        overflow: hidden; 
+        padding-bottom: 40px;
+        .list-50{
+            width:50%;
+            float: left;  
+            margin-bottom: 15px;
+            .box-50{ 
+                height: 315px; 
+                border: #fff solid 1px; 
+                .imgDiv{ 
+                    text-align: center; 
+                    padding: 24px 0 15px; 
+                    height: 255px;
+                    .img-50{
+                        
+                        height: 255px;
+                        width: 380px; 
+                    }
+                }
+                .name{ 
+                    height: 30px; 
+                    line-height: 30px; 
+                    overflow: hidden; 
+                    font-size: 14px; 
+                    padding: 0 10px; 
+                    text-align: center;
+                }
+            }
+            &:hover {
+                .box-50{ 
+                    border: #eee solid 1px; 
+                }
+            }
+        }
 
+        .list-25{
+            width:25%;
+            float: left;  
+            margin-bottom: 15px;
+            .box-25{ 
+                height: 315px; 
+                border: #fff solid 1px; 
+                .imgDiv{ 
+                    text-align: center; 
+                    height: 284px;
+                    padding: 24px 0 15px; 
+                    .img-25{
+                        width: 180px;
+                    }
+                }
+                .name{ 
+                    height: 30px; 
+                    line-height: 30px; 
+                    overflow: hidden; 
+                    font-size: 14px; 
+                    padding: 0 10px; 
+                    text-align: center;
+                }
+            }
+            &:hover {
+                .box-25{ 
+                    border: #eee solid 1px; 
+                }
+            }
+        }
+
+        
+    }
+}
+
+
+
+
+// .product .list1{ padding-bottom: 30px; }
+// .product .list1 li{ padding-left:454px; margin-bottom: 60px; position:relative; height: 266px;}
+// .product .list1 li .imgDiv{ position:absolute; left:0px; top:0px; overflow: hidden; }
+// .product .list1 li .imgDiv img{ width: 382px;}
+// .product .list1 li .name{padding-top: 12px; height: 32px; line-height: 32px; overflow: hidden; font-weight: bold; font-size: 22px;}
+// .product .list1 li .name a{ color: #000; }
+// .product .list1 li .name a:hover{ color: #004898; }
+// .product .list1 li .msg{ font-size:14px; padding-top: 20px; height:156px; line-height: 26px; overflow: hidden; color: #a4a4a4; }
+// .product .list1 li .msg em{ color:#585858;}
 
 

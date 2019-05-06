@@ -59,8 +59,14 @@ em{font-style:normal;}
             display:block; 
             position:absolute; 
             left:20px; 
-            top:11px;
+            top:5px;
+            height: 100px;
+            width:160px;
             background:rgba(80,80,80,0.6);
+            & img{
+                height: 100px;
+                width: 160px;
+            }
         }
         // 头部导航
         .headerList{ 

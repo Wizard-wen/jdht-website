@@ -274,7 +274,7 @@ $('.videoImg').find('.close').click(function () {
 
 })
 
-function search() {
+    function search() {
         var keys = document.getElementById("txtk").value;
         location.href = "/NewsCenter/search.aspx?a=n&keys=" + keys;
     }
