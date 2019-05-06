@@ -184,3 +184,48 @@
 
 .product .list1 li .msg em {
   color: #585858; }
+
+.productShow {
+  padding: 50px 100px;
+  background: #f8f8f8;
+  margin-top: 60px; }
+  .productShow .content-name {
+    font-size: 24px;
+    color: #333;
+    padding: 40px 0;
+    text-align: center; }
+  .productShow .content-title1 {
+    border-bottom: #ebebeb solid 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #010101;
+    font-weight: bold; }
+  .productShow .content-title2 {
+    line-height: 24px;
+    font-size: 14px;
+    color: #010101; }
+  .productShow .content-txt {
+    font-size: 14px;
+    line-height: 24px; }
+  .productShow table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px; }
+  .productShow table,
+  .productShow td,
+  .productShow th {
+    border: 1px solid #ccc; }
+  .productShow th {
+    background-color: #004898;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 30px; }
+  .productShow td {
+    text-align: center;
+    height: 30px;
+    line-height: 30px; }
