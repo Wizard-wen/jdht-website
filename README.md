@@ -24,5 +24,4 @@ npm install //安装依赖
 
 ```
 运行 gulp prod //生产打包
-
 ```
