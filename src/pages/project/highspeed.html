@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../static/css/components/header.css">
+    <link rel="stylesheet" href="../../static/css/common.css">
+    <link rel="stylesheet" href="../../static/css/components/footer.css">
+    <link rel="stylesheet" href="../../static/css/pageStyle.css">
+    <title>改性沥青防水卷材</title>
+    <script src="../../static/js/components/jquery.js"></script>
+    <script type="text/javascript" src="../../static/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script>
+        $(function () {
+            $('#header').load('../components/header.html');
+            $('#footer').load('../components/footer.html');
+        })
+    </script>
+</head>
+
+<body>
+    <!--放一个id为header的div,把header.html加载到这块-->
+    <div id="header"></div>
+
+    <div class="page-common-banner">
+        <img src="../../static/images/page-banner.jpg" alt="">
+    </div>
+
+    <div class="page-common-box">
+        <div class="page-common-content">
+
+            <div class="page-common-right" style="width: 100%">
+                <div class="pageTop">
+                    <div class="pageName">
+                        <b>工程案例</b> Group Profile
+                    </div>
+                </div>
+                <div class="highspeed">
+                    <img src="../../static/images/highspeed/highspeed1.jpg" alt="">
+                    <img src="../../static/images/highspeed/highspeed2.jpg" alt="">
+                    <img src="../../static/images/highspeed/highspeed3.jpg" alt="">
+                    <img src="../../static/images/highspeed/highspeed4.jpg" alt="">
+                    <img src="../../static/images/highspeed/highspeed5.jpg" alt="">
+                    <img src="../../static/images/highspeed/highspeed6.jpg" alt="">
+                    <img src="../../static/images/highspeed/highspeed7.jpg" alt="">
+                    <img src="../../static/images/highspeed/highspeed8.jpg" alt="">
+                    <img src="../../static/images/highspeed/highspeed9.jpg" alt="">
+                    <img src="../../static/images/highspeed/highspeed10.jpg" alt="">
+                </div>
+
+
+            </div>
+
+            <div class="clear_f"></div>
+        </div>
+    </div>
+    <!--放一个id为footer的div,把footer.html加载到这块-->
+    <div id="footer"></div>
+
+    <script type="text/javascript">
+        jQuery(".left-level-nav").slide({
+            defaultIndex: 2,
+            titCell: ".level-1", //鼠标触发对象
+            targetCell: "ul", //与titCell一一对应，第n个titCell控制第n个targetCell的显示隐藏
+            effect: "slideDown", //targetCell下拉效果
+            delayTime: 300, //效果时间
+            triggerTime: 150, //鼠标延迟触发时间（默认150）
+            defaultPlay: true, //默认是否执行效果（默认true）
+            trigger: "click",
+            titOnClassName: 'on level-down',
+            returnDefault: false //鼠标从.sideMen移走后返回默认状态（默认false）
+        });
+    </script>
+</body>
+
+</html>
