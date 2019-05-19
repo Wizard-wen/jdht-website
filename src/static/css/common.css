@@ -210,6 +210,12 @@
   .productShow .content-txt {
     font-size: 14px;
     line-height: 24px; }
+  .productShow .content-img {
+    width: 200px;
+    margin-top: 20px; }
+    .productShow .content-img img {
+      width: 100%;
+      height: auto; }
   .productShow table {
     border-collapse: collapse;
     margin: 0 auto;
