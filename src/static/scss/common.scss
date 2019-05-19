@@ -263,6 +263,14 @@
         font-size: 14px;
         line-height: 24px;
     }
+    .content-img {
+        width: 200px;
+        margin-top: 20px;
+        & img {
+            width: 100%;
+            height: auto;
+        }
+    }
     table {
         border-collapse: collapse;
         margin: 0 auto;
