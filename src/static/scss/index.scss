@@ -354,5 +354,34 @@
 // .product .list1 li .name a:hover{ color: #004898; }
 // .product .list1 li .msg{ font-size:14px; padding-top: 20px; height:156px; line-height: 26px; overflow: hidden; color: #a4a4a4; }
 // .product .list1 li .msg em{ color:#585858;}
-
-
+// 加盟流程
+.process{ padding-top: 65px; }
+.process .txt{ font-size: 18px; color: #333; text-align: center; font-weight: bold; padding-bottom: 30px; line-height: 36px; }
+.process .listBox{ background: url(../images/join/nimg20_7.png) no-repeat center top; padding-top: 20px;}
+.process .list{ background: url(../images/join/line2.jpg) center repeat-y; padding-top: 60px;}
+.process .list li{ padding: 0 500px 0 120px; position: relative; height: 120px; }
+.process .list .li01{ padding: 0 100px 0 520px; }
+.process .list li .num{ background: url(../images/join/nimg32_2.jpg) no-repeat; position: absolute; left: 50%; top: 50%; margin-top: -20px; width: 32px; margin-left: -16px; height: 40px; line-height: 40px; text-align: center; color: #024691; font-weight: bold; font-size:26px; }
+.process .list li .name{ font-size: 16px; color: #333; font-weight: bold;  height: 40px; line-height: 40px;}
+.process .list li .name img{ padding-right: 30px; }
+.process .list li .msg{ font-size: 14px; color: #999; line-height: 32px; padding-top: 6px;}
+.process .list li .line{ position: absolute; display: block; width: 20px; height: 1px;  background: url(../images/join/line3.png) no-repeat; left: 410px; top: 50%;}
+.process .list .li01 .line{ left: auto; right: 410px;}
+// 加盟优势
+.advantage{ padding: 80px 0 20px;}
+.advantage .part1{ overflow: hidden; }
+.advantage .part1 .leftDiv{ width: 450px; height: 300px; overflow: hidden;}
+.advantage .part1 .content{ padding-top: 25px; font-size: 14px; line-height: 24px; text-align: center;}
+.advantage .part1 .rightDiv{ width: 450px; }
+.advantage .part1 .slogan{ width: 450px; padding-top: 35px; height: 115px; text-align: center; font-size: 24px; color: #333; line-height: 36px; font-weight: bold; background: url(../images/join/nimg310Bg.png) center 20px no-repeat; }
+.advantage .part2{ padding-top: 66px; }
+.advantage .part2 li{ height: 130px; background: #f5f5f5; padding: 0 45px 0 160px; position: relative; margin-bottom: 50px;}
+.advantage .part2 li .name{ position: absolute; left: 30px; top: 30px; padding-left: 25px; width: 65px; height: 70px; line-height: 70px; color: #333; font-weight: bold; font-size: 18px; background: url(../images/join/nimg52Bg.png) left center no-repeat; }
+.advantage .part2 li .content{ font-size: 14px; line-height: 26px; height: 130px; vertical-align: middle; display: table-cell; }
+.advantage .part3{ padding-top: 55px; }
+.advantage .part3 .topDiv{ overflow: hidden; }
+.advantage .part3 .leftImg{ width: 450px; }
+.advantage .part3 .rightImg{ width: 450px; overflow: hidden;}
+.advantage .part3 .rightContent{ padding-left: 50px; width: 400px; font-size: 14px; line-height: 26px; }
+.advantage .part3 .botDiv{ overflow: hidden; }
+.advantage .part3 .leftContent{ width: 400px; padding-right: 50px; font-size: 14px; line-height: 26px; padding-top: 35px;}
