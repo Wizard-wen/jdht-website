@@ -6,3 +6,17 @@
     display: block;
     float: left;
     margin: 10px 1%; }
+
+.atlas {
+  padding: 50px 100px;
+  background: #f8f8f8; }
+  .atlas .atlas-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    border-bottom: #ebebeb solid 1px; }
+  .atlas .atlas-content img {
+    display: block;
+    width: 80%;
+    margin: 10px auto; }
