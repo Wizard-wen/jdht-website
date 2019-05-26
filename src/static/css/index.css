@@ -293,6 +293,52 @@
     .honour .list .list-25:hover .box-25 {
       border: #eee solid 1px; }
 
+.product {
+  margin-top: 10px; }
+
+.product .list1 {
+  padding-bottom: 30px; }
+
+.product .list1 li {
+  padding-left: 454px;
+  margin-bottom: 60px;
+  position: relative;
+  height: 266px; }
+
+.product .list1 li .imgDiv {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden; }
+
+.product .list1 li .imgDiv img {
+  width: 382px; }
+
+.product .list1 li .name {
+  padding-top: 12px;
+  height: 32px;
+  line-height: 32px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 22px; }
+
+.product .list1 li .name a {
+  color: #000; }
+
+.product .list1 li .name a:hover {
+  color: #004898; }
+
+.product .list1 li .msg {
+  font-size: 14px;
+  padding-top: 20px;
+  height: 156px;
+  line-height: 26px;
+  overflow: hidden;
+  color: #a4a4a4; }
+
+.product .list1 li .msg em {
+  color: #585858; }
+
 .process {
   padding-top: 65px; }
 
