@@ -64,3 +64,45 @@
         width: 100%;
     }
 }
+
+//首页
+.new-contains-more {
+    float: right;
+    font-size: 14px;
+    color: #b7b7b7;
+}
+
+//新闻中心
+.news-list {
+    padding: 20px 30px;
+    li {
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px double #f2f2f2;
+        font-size: 16px;
+        padding: 0 10px;
+    }
+}
+
+.news-content {
+    padding: 20px 100px;
+    h3 {
+        line-height: 50px;
+        font-size: 20px;
+    }
+    p {
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .image {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    img {
+        width: 100%;
+    }
+    .img-fl {
+        width: 33%;
+    }
+}

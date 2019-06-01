@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../static/css/components/header.css">
+    <link rel="stylesheet" href="../../static/css/common.css">
+    <link rel="stylesheet" href="../../static/css/components/footer.css">
+    <link rel="stylesheet" href="../../static/css/pageStyle.css">
+    <title>新闻中心</title>
+    <script src="../../static/js/components/jquery.js"></script>
+    <script type="text/javascript" src="../../static/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script>
+        $(function () {
+            $('#header').load('../components/header.html');
+            $('#footer').load('../components/footer.html');
+        })
+    </script>
+</head>
+
+<body>
+    <!--放一个id为header的div,把header.html加载到这块-->
+    <div id="header"></div>
+
+    <div class="page-common-banner">
+        <img src="../../static/images/page-banner.jpg" alt="">
+    </div>
+
+    <div class="page-common-box">
+        <div class="page-common-content">
+
+            <div class="page-common-right" style="width: 100%">
+                <div class="pageTop">
+                    <div class="pageName">
+                        <b>新闻中心</b> Group Profile
+                    </div>
+                    <div class="pageNow">
+                        <img src="../../static/images/page-common-home.png"> 当前位置：
+                        <a href="/">首页</a>
+                        <i>></i>
+                        <a href="http://localhost/pages/news/newslist.html">新闻中心</a>
+                    </div>
+                </div>
+
+                <div class="news-list">
+                    <ul>
+                        <li><a href="./newscontent1.html">黑将军防水系统，打响防水寿命的战争！</a></li>
+                        <li><a href="./newscontent2.html">518全国防水交流保温大会隆重举行</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="clear_f"></div>
+        </div>
+    </div>
+    <!--放一个id为footer的div,把footer.html加载到这块-->
+    <div id="footer"></div>
+
+    <script type="text/javascript">
+        jQuery(".left-level-nav").slide({
+            defaultIndex: 2,
+            titCell: ".level-1", //鼠标触发对象
+            targetCell: "ul", //与titCell一一对应，第n个titCell控制第n个targetCell的显示隐藏
+            effect: "slideDown", //targetCell下拉效果
+            delayTime: 300, //效果时间
+            triggerTime: 150, //鼠标延迟触发时间（默认150）
+            defaultPlay: true, //默认是否执行效果（默认true）
+            trigger: "click",
+            titOnClassName: 'on level-down',
+            returnDefault: false //鼠标从.sideMen移走后返回默认状态（默认false）
+        });
+    </script>
+</body>
+
+</html>
