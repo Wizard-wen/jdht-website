@@ -45,3 +45,22 @@
         }
     }
 }
+
+//企业文化
+.culture-show {
+    padding: 10px 30px;
+    p {
+        font-size: 16px;
+        line-height: 30px;
+        padding: 0 20px;
+        text-indent: 2em;
+    }
+    .culture-image {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    img {
+        width: 100%;
+    }
+}
