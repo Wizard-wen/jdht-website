@@ -65,9 +65,15 @@
   .news-content h3 {
     line-height: 50px;
     font-size: 20px; }
+  .news-content h4 {
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    width: 100%; }
   .news-content p {
     line-height: 20px;
-    font-size: 16px; }
+    font-size: 16px;
+    text-indent: 2em; }
   .news-content .image {
     width: 100%;
     padding: 20px;
@@ -76,3 +82,5 @@
     width: 100%; }
   .news-content .img-fl {
     width: 33%; }
+  .news-content .img-line4 {
+    width: 24%; }

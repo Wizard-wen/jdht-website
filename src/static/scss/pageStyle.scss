@@ -90,9 +90,16 @@
         line-height: 50px;
         font-size: 20px;
     }
+    h4 {
+        line-height: 40px;
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+    }
     p {
         line-height: 20px;
         font-size: 16px;
+        text-indent: 2em;
     }
     .image {
         width: 100%;
@@ -104,5 +111,8 @@
     }
     .img-fl {
         width: 33%;
+    }
+    .img-line4{
+        width: 24%;
     }
 }
