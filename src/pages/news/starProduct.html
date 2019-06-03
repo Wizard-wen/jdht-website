@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../static/css/components/header.css">
+    <link rel="stylesheet" href="../../static/css/common.css">
+    <link rel="stylesheet" href="../../static/css/components/footer.css">
+    <link rel="stylesheet" href="../../static/css/pageStyle.css">
+    <title>新闻中心</title>
+    <script src="../../static/js/components/jquery.js"></script>
+    <script type="text/javascript" src="../../static/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script>
+        $(function () {
+            $('#header').load('../components/header.html');
+            $('#footer').load('../components/footer.html');
+        })
+    </script>
+</head>
+
+<body>
+    <!--放一个id为header的div,把header.html加载到这块-->
+    <div id="header"></div>
+    <div class="star-title">明星产品</div>
+    <div class="star-div">
+        <div class="star-box">
+            <div class="content">
+                <div class="img">
+
+                </div>
+                <div class="star-name">黑将军系统</div>
+            </div>
+        </div>
+        <div class="star-box">
+            <div class="content">
+                <div class="img">
+
+                </div>
+                <div class="star-name">高品质防水维修材料系列</div>
+            </div>
+        </div>
+        <div class="star-box">
+            <div class="content">
+                <div class="img">
+
+                </div>
+                <div class="star-name">非沥青基自粘胶膜系列</div>
+            </div>
+        </div>
+        <div class="star-box">
+            <div class="content">
+                <div class="img">
+
+                </div>
+                <div class="star-name">非固化橡胶沥青防水涂料</div>
+            </div>
+        </div>
+    </div>
+    <!--放一个id为footer的div,把footer.html加载到这块-->
+    <div id="footer"></div>
+
+    <script type="text/javascript">
+        jQuery(".left-level-nav").slide({
+            defaultIndex: 2,
+            titCell: ".level-1", //鼠标触发对象
+            targetCell: "ul", //与titCell一一对应，第n个titCell控制第n个targetCell的显示隐藏
+            effect: "slideDown", //targetCell下拉效果
+            delayTime: 300, //效果时间
+            triggerTime: 150, //鼠标延迟触发时间（默认150）
+            defaultPlay: true, //默认是否执行效果（默认true）
+            trigger: "click",
+            titOnClassName: 'on level-down',
+            returnDefault: false //鼠标从.sideMen移走后返回默认状态（默认false）
+        });
+    </script>
+</body>
+
+</html>
