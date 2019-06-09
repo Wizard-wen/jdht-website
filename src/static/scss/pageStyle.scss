@@ -49,7 +49,37 @@
 //企业文化
 .culture-show {
     padding: 10px 30px;
+    .img-logo{
+        width: 677px;
+        height: 569px;
+        margin: 0 auto;
+    }
+    .color1{
+        color: #007aaa;
+        line-height: 27px;
+        font-size: 17px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .color2{
+        color: #d92142;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 27px;
+    }
+    .color3{
+        width: 670px;
+        margin: 27px auto;
+        line-height: 34px;
+        color: #333;
+        text-align: right;
+        font-weight: 700;
+    }
     p {
+        width: 670px;
+        margin: 0 auto;
         font-size: 16px;
         line-height: 30px;
         padding: 0 20px;
@@ -60,8 +90,21 @@
         padding: 10px;
         box-sizing: border-box;
     }
+    .video{
+        width: 670px;
+        margin: 0  auto;
+
+    }
     img {
-        width: 100%;
+        display: block;
+        margin: 0 auto;
+        width: 670px;
+    }
+    .message{
+        width: 670px;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 30px;
     }
 }
 
