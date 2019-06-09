@@ -61,7 +61,7 @@
                 </div>
                 <div class="atlas">
                     <div class="atlas-title">修缮定额图片</div>
-                    <div class="atlas-content">
+                    <div class="atlas-content atlas_img1">
                         <img src="../../static/images/tech/atlas1-1.png" alt="">
                         <img src="../../static/images/tech/atlas1-2.png" alt="">
                         <img src="../../static/images/tech/atlas1-3.png" alt="">
@@ -75,7 +75,7 @@
                         <img src="../../static/images/tech/atlas1-11.png" alt="">
                     </div>
                     <div class="atlas-title">建筑防水系统构造</div>
-                    <div class="atlas-content">
+                    <div class="atlas-content atlas_img2">
                         <img src="../../static/images/tech/0.jpg" alt="">
                         <img src="../../static/images/tech/1.jpg" alt="">
                         <img src="../../static/images/tech/2.jpg" alt="">
@@ -112,6 +112,55 @@
                         <img src="../../static/images/tech/33.jpg" alt="">
                     </div>
                 </div>
+                <div class="atlas_big_img atlas_big_img1">
+                    <img src="../../static/images/tech/atlas1-1.png" alt="">
+                    <img src="../../static/images/tech/atlas1-2.png" alt="">
+                    <img src="../../static/images/tech/atlas1-3.png" alt="">
+                    <img src="../../static/images/tech/atlas1-4.png" alt="">
+                    <img src="../../static/images/tech/atlas1-5.png" alt="">
+                    <img src="../../static/images/tech/atlas1-6.png" alt="">
+                    <img src="../../static/images/tech/atlas1-7.png" alt="">
+                    <img src="../../static/images/tech/atlas1-8.png" alt="">
+                    <img src="../../static/images/tech/atlas1-9.png" alt="">
+                    <img src="../../static/images/tech/atlas1-10.png" alt="">
+                    <img src="../../static/images/tech/atlas1-11.png" alt="">
+                </div>
+                <div class="atlas_big_img atlas_big_img2">
+                    <img src="../../static/images/tech/0.jpg" alt="">
+                    <img src="../../static/images/tech/1.jpg" alt="">
+                    <img src="../../static/images/tech/2.jpg" alt="">
+                    <img src="../../static/images/tech/3.jpg" alt="">
+                    <img src="../../static/images/tech/4.jpg" alt="">
+                    <img src="../../static/images/tech/5.jpg" alt="">
+                    <img src="../../static/images/tech/6.jpg" alt="">
+                    <img src="../../static/images/tech/7.jpg" alt="">
+                    <img src="../../static/images/tech/8.jpg" alt="">
+                    <img src="../../static/images/tech/9.jpg" alt="">
+                    <img src="../../static/images/tech/10.jpg" alt="">
+                    <img src="../../static/images/tech/11.jpg" alt="">
+                    <img src="../../static/images/tech/12.jpg" alt="">
+                    <img src="../../static/images/tech/13.jpg" alt="">
+                    <img src="../../static/images/tech/14.jpg" alt="">
+                    <img src="../../static/images/tech/15.jpg" alt="">
+                    <img src="../../static/images/tech/16.jpg" alt="">
+                    <img src="../../static/images/tech/17.jpg" alt="">
+                    <img src="../../static/images/tech/18.jpg" alt="">
+                    <img src="../../static/images/tech/19.jpg" alt="">
+                    <img src="../../static/images/tech/20.jpg" alt="">
+                    <img src="../../static/images/tech/21.jpg" alt="">
+                    <img src="../../static/images/tech/22.jpg" alt="">
+                    <img src="../../static/images/tech/23.jpg" alt="">
+                    <img src="../../static/images/tech/24.jpg" alt="">
+                    <img src="../../static/images/tech/25.jpg" alt="">
+                    <img src="../../static/images/tech/26.jpg" alt="">
+                    <img src="../../static/images/tech/27.jpg" alt="">
+                    <img src="../../static/images/tech/28.jpg" alt="">
+                    <img src="../../static/images/tech/29.jpg" alt="">
+                    <img src="../../static/images/tech/30.jpg" alt="">
+                    <img src="../../static/images/tech/31.jpg" alt="">
+                    <img src="../../static/images/tech/32.jpg" alt="">
+                    <img src="../../static/images/tech/33.jpg" alt="">
+                </div>
             </div>
             
             <div class="clear_f"></div>
@@ -119,6 +168,25 @@
     </div>
     <!--放一个id为footer的div,把footer.html加载到这块-->
     <div id="footer"></div>
-
+    <script>
+        $('.atlas_img1 img').click(function(){
+            var _index = $(this).index();
+            $('.atlas_big_img1').show();
+            $('.atlas_big_img1 img').eq(_index).show();
+        })
+        $('.atlas_big_img1').click(function(){
+            $(this).hide();
+            $('.atlas_big_img1 img').hide();
+        })
+        $('.atlas_img2 img').click(function(){
+            var _index = $(this).index();
+            $('.atlas_big_img2').show();
+            $('.atlas_big_img2 img').eq(_index).show();
+        })
+        $('.atlas_big_img2').click(function(){
+            $(this).hide();
+            $('.atlas_big_img2 img').hide();
+        })
+    </script>
 </body>
 </html>

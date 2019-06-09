@@ -49,7 +49,18 @@
                     <img src="../../static/images/highspeed/highspeed9.png" alt="">
                     <img src="../../static/images/highspeed/highspeed10.png" alt="">
                 </div>
-
+                <div class="highspeed_big_img">
+                    <img src="../../static/images/highspeed/highspeed1.png" alt="">
+                    <img src="../../static/images/highspeed/highspeed2.png" alt="">
+                    <img src="../../static/images/highspeed/highspeed3.png" alt="">
+                    <img src="../../static/images/highspeed/highspeed4.png" alt="">
+                    <img src="../../static/images/highspeed/highspeed5.png" alt="">
+                    <img src="../../static/images/highspeed/highspeed6.png" alt="">
+                    <img src="../../static/images/highspeed/highspeed7.png" alt="">
+                    <img src="../../static/images/highspeed/highspeed8.png" alt="">
+                    <img src="../../static/images/highspeed/highspeed9.png" alt="">
+                    <img src="../../static/images/highspeed/highspeed10.png" alt="">
+                </div>
 
             </div>
 
@@ -72,7 +83,15 @@
             titOnClassName: 'on level-down',
             returnDefault: false //鼠标从.sideMen移走后返回默认状态（默认false）
         });
+        $('.highspeed img').click(function(){
+            var _index = $(this).index();
+            $('.highspeed_big_img').show();
+            $('.highspeed_big_img img').eq(_index).show();
+        })
+        $('.highspeed_big_img').click(function(){
+            $(this).hide();
+            $('.highspeed_big_img img').hide();
+        })
     </script>
 </body>
-
 </html>
