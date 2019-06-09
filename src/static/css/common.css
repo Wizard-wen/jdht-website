@@ -215,6 +215,18 @@
   .productShow .content-txt {
     font-size: 14px;
     line-height: 24px; }
+  .productShow .image-box {
+    width: 100px;
+    margin: 0 auto; }
+  .productShow .bigBox .contentBox .content img {
+    margin: 0 auto; }
+  .productShow .content-img-box {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px; }
+    .productShow .content-img-box img {
+      width: 100%;
+      height: auto; }
   .productShow .content-img {
     width: 200px;
     margin-top: 20px; }
