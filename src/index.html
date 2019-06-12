@@ -148,7 +148,8 @@
         var region = '',
         img = './static/images/'
         $.ajax({
-            url: 'http://60.205.200.55:1001/getIpInfo.php',
+            url: 'getIpInfo.php',
+            // url: 'http://60.205.200.55:1001/getIpInfo.php',
             type: 'get',
             dataType: 'json',
             success: function(data){
@@ -157,7 +158,7 @@
                     imageUrl = img+'qr-liaoning.png'
                 } else if(region == '内蒙古'){
                     imageUrl = img+'qr-neimeng.png'
-                } else if(region == '浙江' || '上海' || '江苏'){
+                } else if(region == ('浙江' || '上海' || '江苏')){
                     imageUrl = img+'qr-jiangzhehu.png'
                 } else if(region == '天津'){
                     imageUrl = img+'qr-tianjin.png'
@@ -167,6 +168,9 @@
                     imageUrl = img+'qr-guangdong.png'
                 } else if(region == '河南'){
                     imageUrl = img+'qr-henan.png'
+                } else {
+                    // 默认
+                    imageUrl = img+'qr-moren.png'
                 }
                 $('.qr-img').append("<img style='height: 100px;width:100px;' src="+imageUrl+">")
             }
