@@ -21,7 +21,20 @@
 <body>
     <!--放一个id为header的div,把header.html加载到这块-->
     <div id="header"></div>
-
+    <div class="service-box">
+            <div class="title">
+                <p>您的专属</p>
+                <p>客服经理</p>
+            </div>
+            <div class="servicer">
+                <img src="./static/images/servicer.jpg" alt="">
+            </div>
+            <div class="qr-img"></div>
+            <div class="tel">
+                <p>24小时客服电话</p>
+                <p>400-0084-777</p>
+            </div>
+        </div>
         <!--轮播图-->
         <div class="banner">
             <div class="focus"> 	
@@ -48,6 +61,7 @@
                     </li> 
                 </ul>
             </div>
+
         </div>
         <!-- 新闻动态 -->
         <div class="news-box">
@@ -131,12 +145,30 @@
                 maxwidth: 640
             });
         });
+        var region = '',
+        img = './static/images/'
         $.ajax({
-            url: 'http://localhost/getIpInfo.php',
+            url: 'http://60.205.200.55:1001/getIpInfo.php',
             type: 'get',
-            // dataType: 'json',
-            success: function(e){
-                console.log(e)
+            dataType: 'json',
+            success: function(data){
+                region = data.data.region
+                if(region == '辽宁'){
+                    imageUrl = img+'qr-liaoning.png'
+                } else if(region == '内蒙古'){
+                    imageUrl = img+'qr-neimeng.png'
+                } else if(region == '浙江' || '上海' || '江苏'){
+                    imageUrl = img+'qr-jiangzhehu.png'
+                } else if(region == '天津'){
+                    imageUrl = img+'qr-tianjin.png'
+                } else if(region == '山东'){
+                    imageUrl = img+'qr-shandong.png'
+                } else if(region == '广东'){
+                    imageUrl = img+'qr-guangdong.png'
+                } else if(region == '河南'){
+                    imageUrl = img+'qr-henan.png'
+                }
+                $('.qr-img').append("<img style='height: 100px;width:100px;' src="+imageUrl+">")
             }
         })
     </script>
