@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +7,16 @@
     <link rel="stylesheet" href="../../static/css/components/header.css">
     <link rel="stylesheet" href="../../static/css/common.css">
     <link rel="stylesheet" href="../../static/css/components/footer.css">
-    <link rel="stylesheet" href="../../static/css/pageStyle.css">
-    <title>新闻中心</title>
+    <title>黑将军防水系统</title>
     <script src="../../static/js/components/jquery.js"></script>
-    <script type="text/javascript" src="../../static/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="../../static/js/jquery.SuperSlide.2.1.1.js" ></script>
     <script>
-        $(function () {
+        $(function() {
             $('#header').load('../components/header.html');
             $('#footer').load('../components/footer.html');
         })
     </script>
 </head>
-
 <body>
     <!--放一个id为header的div,把header.html加载到这块-->
     <div id="header"></div>
@@ -30,26 +27,47 @@
 
     <div class="page-common-box">
         <div class="page-common-content">
-            <div class="page-common-right" style="width: 100%">
+            
+            <div class="page-common-left fl">
+                <div class="pageTitle">
+                    <div class="txt1">主营业务</div>
+                    <div class="txt2">Group Profile</div>  
+                </div>
+                <div class="leftNav">
+                    <ul>
+                        <li><a href="http://localhost/pages/primary/p10.html" class="left-list-active">黑将军防水系统</a></li> 
+                        <li><a href="http://localhost/pages/primary/p20.html">高品质维修防水材料</a></li> 
+                        <li><a href="http://localhost/pages/primary/p30.html">改性沥青防水卷材</a></li> 
+                        <li><a href="http://localhost/pages/primary/p40.html">建筑防水涂料系列</a></li> 
+                        <li><a href="http://localhost/pages/primary/p50.html">高分子防水卷材系列</a></li> 
+                        <li><a href="http://localhost/pages/primary/p60.html">种植屋面耐根穿刺防水卷材系列</a></li> 
+                    </ul>
+                </div>
+            </div>
+
+            <div class="page-common-right fr">
                 <div class="pageTop">
                     <div class="pageName">
-                        <b>黑将军防水系统，打响防水寿命的战争！</b>
+                        <b>主营业务</b>
+                        Group Profile
                     </div>
                     <div class="pageNow">
-                        <img src="../../static/images/page-common-home.png"> 当前位置：
+                        <img src="../../static/images/page-common-home.png">
+                        当前位置：
                         <a href="/">首页</a>
                         <i>></i>
-                        <a href="http://localhost/pages/news/newslist.html">新闻中心</a>
+                        <a href="http://localhost/pages/primary/p10.html">主营业务</a>
                         <i>></i>
-                        <a href="http://localhost/pages/news/newscontent1.html">黑将军防水系统，打响防水寿命的战争！</a>
+                        <a href="http://localhost/pages/primary/p10.html">黑将军防水系统</a>
+                        <i>></i>
+                        <a href="http://localhost/pages/primary/p17.html">BG-J丁基橡胶基层密链剂</a>
                     </div>
                 </div>
-
                 <div class="productShow">
                     <div class="bigBox">
                         <div class="bigImg"></div>
                         <div class="contentBox">
-                            <div class="content-name">黑将军防水系统，打响防水寿命的战争！</div>
+                            <div class="content-name">黑将军防水系统整体说明</div>
                             <div class="content">
                                 <div style="margin-bottom: 20px;" class="content-txt">防水行业一直流传着一句话：“三份材料，七分施工”，而现如今，又有一种新的声音，是“七分材料，三分施工”。两个说法，各自都有各自的道理，但是究其根本，其实就是两点，一是要严选防水材料，二，是要监管防水施工，都是为了能够让建筑寿命更长久，而我们辽宁九鼎宏泰防水科技有限公司认为，这，不仅仅是技术的革命，这将是一场旷日持久的战争，属于我们防水行业的战争。故而，黑将军，BLACK
                                     GENERAL 诞生了。</div>
@@ -92,29 +110,29 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
+            <!-- <div class="news-content">
+                
+            </div> -->
             <div class="clear_f"></div>
         </div>
     </div>
     <!--放一个id为footer的div,把footer.html加载到这块-->
     <div id="footer"></div>
-
-    <script type="text/javascript">
-        jQuery(".left-level-nav").slide({
-            defaultIndex: 2,
-            titCell: ".level-1", //鼠标触发对象
-            targetCell: "ul", //与titCell一一对应，第n个titCell控制第n个targetCell的显示隐藏
-            effect: "slideDown", //targetCell下拉效果
-            delayTime: 300, //效果时间
-            triggerTime: 150, //鼠标延迟触发时间（默认150）
-            defaultPlay: true, //默认是否执行效果（默认true）
-            trigger: "click",
-            titOnClassName: 'on level-down',
-            returnDefault: false //鼠标从.sideMen移走后返回默认状态（默认false）
-        });
-    </script>
+    
+<script type="text/javascript">
+	jQuery(".left-level-nav").slide({
+        defaultIndex: 0,
+		titCell:".level-1", //鼠标触发对象
+		targetCell:"ul", //与titCell一一对应，第n个titCell控制第n个targetCell的显示隐藏
+		effect:"slideDown", //targetCell下拉效果
+		delayTime:300 , //效果时间
+		triggerTime:150, //鼠标延迟触发时间（默认150）
+		defaultPlay:true,//默认是否执行效果（默认true）
+        trigger:"click",
+        titOnClassName:'on level-down',
+		returnDefault:true //鼠标从.sideMen移走后返回默认状态（默认false）
+		});
+</script>
 </body>
-
 </html>

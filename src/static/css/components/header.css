@@ -252,7 +252,7 @@ em {
   z-index: 11;
   overflow: hidden;
   background: #fff;
-  width: 737px;
+  width: 154px;
   height: 318px;
   border-top: #efefef solid 1px; }
   .headerDown .leftListDiv {
@@ -275,6 +275,10 @@ em {
         overflow: hidden;
         text-overflow: ellipsis; }
     .headerDown .leftListDiv .list-box .list-active {
+      display: block;
+      box-sizing: border-box;
+      height: 47px;
+      width: 154px;
       background: #0e62bf url(../images/nimg36_1.png) right center no-repeat;
       color: #fff; }
       .headerDown .leftListDiv .list-box .list-active a {
