@@ -317,6 +317,6 @@
           background: #ccc; }
         .other-product .product-list .product-box .content .name {
           height: 40px;
-          line-height: 40px;
+          line-height: 20px;
           text-align: center;
           font-size: 14px; }

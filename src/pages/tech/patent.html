@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../static/css/components/header.css">
     <link rel="stylesheet" href="../../static/css/common.css">
     <link rel="stylesheet" href="../../static/css/components/footer.css">
+    <link rel="stylesheet" href="../../static/css/pageStyle.css">
     <title>专利认证</title>
     <script src="../../static/js/components/jquery.js"></script>
     <script>
@@ -35,7 +36,7 @@
                 <div class="leftNav">
                     <ul>
                         <li><a href="http://localhost/pages/tech/house.html">生产厂房</a></li> 
-                        <li><a href="http://localhost/pages/tech/top.html">顶尖技术</a></li>
+                        <!-- <li><a href="http://localhost/pages/tech/top.html">顶尖技术</a></li> -->
                         <li><a href="http://localhost/pages/tech/patent.html" class="left-list-active">专利认证</a></li>  
                         <li><a href="http://localhost/pages/tech/atlas.html">图集/标准参编</a></li>  
                     </ul>
@@ -45,7 +46,7 @@
             <div class="page-common-right fr">
                 <div class="pageTop">
                     <div class="pageName">
-                        <b>技术研发</b>
+                        <b>专利认证</b>
                         Group Profile
                     </div>
                     <div class="pageNow">
@@ -58,6 +59,31 @@
                         <a href="javascript:;">专利认证</a>
                     </div>
                 </div>
+                <div class="patent">
+                    <img src="../../static/images/tech/patent1.jpg" alt="">
+                    <img src="../../static/images/tech/patent2.jpg" alt="">
+                    <img src="../../static/images/tech/patent3.jpg" alt="">
+                    <img src="../../static/images/tech/patent4.jpg" alt="">
+                    <img src="../../static/images/tech/patent5.jpg" alt="">
+                    <img src="../../static/images/tech/patent6.jpg" alt="">
+                    
+                    <img src="../../static/images/tech/patent8.jpg" alt="">
+                    <img src="../../static/images/tech/patent9.jpg" alt="">
+                    <img src="../../static/images/tech/patent7.jpg" alt="">
+                    <!-- <img src="../../static/images/tech/patent10.jpg" alt=""> -->
+                </div>
+                <div class="patent_big_img">
+                    <img src="../../static/images/tech/patent1.jpg" alt="">
+                    <img src="../../static/images/tech/patent2.jpg" alt="">
+                    <img src="../../static/images/tech/patent3.jpg" alt="">
+                    <img src="../../static/images/tech/patent4.jpg" alt="">
+                    <img src="../../static/images/tech/patent5.jpg" alt="">
+                    <img src="../../static/images/tech/patent6.jpg" alt="">
+                    
+                    <img src="../../static/images/tech/patent8.jpg" alt="">
+                    <img src="../../static/images/tech/patent9.jpg" alt="">
+                    <img src="../../static/images/tech/patent7.jpg" alt="">
+                </div>
             </div>
             
             <div class="clear_f"></div>
@@ -68,3 +94,14 @@
 
 </body>
 </html>
+<script>
+        $('.patent img').click(function(){
+            var _index = $(this).index();
+            $('.patent_big_img').show();
+            $('.patent_big_img img').eq(_index).show();
+        })
+        $('.patent_big_img').click(function(){
+            $(this).hide();
+            $('.patent_big_img img').hide();
+        })
+</script>
