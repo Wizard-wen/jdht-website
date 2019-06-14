@@ -32,7 +32,18 @@ try{
     IPAddress = 'localhost'
 }
 
-var uri = 'http://' + IPAddress
+var uri = 'http://' + 'jdht.magicheart.win'
+// var uri = 'http://' + IPAddress
+console.log(uri);
+
+
+
+
+
+
+
+
+
 
 /**
  * 生产环境  将页面中的 http://localhost  替换为 http://域名:端口号
