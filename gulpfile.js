@@ -32,8 +32,8 @@ try{
     IPAddress = 'localhost'
 }
 
-var uri = 'http://' + 'jdht.magicheart.win'
-// var uri = 'http://' + IPAddress
+// var uri = 'http://' + 'jdht.magicheart.win'
+var uri = 'http://' + IPAddress
 console.log(uri);
 
 
