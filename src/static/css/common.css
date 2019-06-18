@@ -212,9 +212,19 @@
     line-height: 24px;
     font-size: 14px;
     color: #010101; }
+  .productShow .content-title3 {
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-align: center; }
+  .productShow .content-image {
+    margin: 20px 0 10px !important;
+    width: 100% !important; }
+  .productShow .content-link {
+    line-height: 40px; }
   .productShow .content-txt {
     font-size: 14px;
-    line-height: 24px; }
+    line-height: 30px;
+    text-indent: 2em; }
   .productShow .image-box {
     width: 100px;
     margin: 0 auto; }
@@ -315,8 +325,12 @@
           height: 120px;
           width: 100%;
           background: #ccc; }
+          .other-product .product-list .product-box .content .img-box img {
+            width: 100%;
+            height: 100%; }
         .other-product .product-list .product-box .content .name {
           height: 40px;
           line-height: 20px;
           text-align: center;
-          font-size: 14px; }
+          font-size: 14px;
+          margin-top: 10px; }

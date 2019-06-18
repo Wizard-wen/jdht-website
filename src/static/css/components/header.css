@@ -253,11 +253,9 @@ em {
   overflow: hidden;
   background: #fff;
   width: 154px;
-  height: 318px;
   border-top: #efefef solid 1px; }
   .headerDown .leftListDiv {
     width: 154px;
-    height: 318px;
     background: #f4f4f4; }
     .headerDown .leftListDiv .list-box li {
       height: 47px;
