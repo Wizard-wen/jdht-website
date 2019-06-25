@@ -205,15 +205,16 @@
     margin-bottom: 10px;
     margin-top: 50px;
     line-height: 30px;
-    font-size: 16px;
+    font-size: 18px;
     color: #010101;
     font-weight: bold; }
   .productShow .content-title2 {
     line-height: 24px;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 16px;
     color: #010101; }
   .productShow .content-title3 {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 20px;
     text-align: center; }
   .productShow .content-image {
@@ -221,8 +222,10 @@
     width: 100% !important; }
   .productShow .content-link {
     line-height: 40px; }
+    .productShow .content-link a {
+      color: #4268f6; }
   .productShow .content-txt {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 30px;
     text-indent: 2em; }
   .productShow .image-box {
