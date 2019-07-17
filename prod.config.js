@@ -1,3 +1,3 @@
 module.exports = {
-    prodUrl : 'http://10.168.0.67'
+    prodUrl: 'http://60.205.200.55:1002'
 } 
